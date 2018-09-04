@@ -146,8 +146,8 @@ DEFINE_VALUE_DESCRIPTION_NS(ContentDescriptor, ContentDescriptorDescription);
 /* UTILITY FUNCTIONS                                                         */
 /*****************************************************************************/
 
-filter_istream getContent(const ContentDescriptor & descriptor,
-                          const std::map<Utf8String, Any> & options)
+filter_istream getContentStream(const ContentDescriptor & descriptor,
+                                const std::map<Utf8String, Any> & options)
 {
     std::map<std::string, std::string> options2;
     for (auto & opt: options) {
