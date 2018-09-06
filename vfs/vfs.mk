@@ -8,8 +8,6 @@ LIBVFS_SOURCES := \
 	zstandard.cc \
 	snappy.cc \
 	exception_ptr.cc \
-	content.cc \
-	content_descriptor.cc \
 
 LIBVFS_LINK := \
 	arch \
